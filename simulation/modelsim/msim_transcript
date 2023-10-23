@@ -1,0 +1,239 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do ASM1_run_msim_gate_verilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {ASM1.vo}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ASM1
+# 
+# Top level modules:
+# 	ASM1
+# 
+vsim -voptargs=+acc work.ASM1
+# vsim -voptargs=+acc work.ASM1 
+# Loading work.ASM1
+# ** Error: (vsim-3033) ASM1.vo(132): Instantiation of 'cycloneii_io' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(156): Instantiation of 'cycloneii_clkctrl' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(181): Instantiation of 'cycloneii_io' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(217): Instantiation of 'cycloneii_io' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(245): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(270): Instantiation of 'cycloneii_io' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(306): Instantiation of 'cycloneii_io' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(334): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(347): Instantiation of 'cycloneii_clkctrl' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(364): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(381): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(398): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(415): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(428): Instantiation of 'cycloneii_clkctrl' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(445): Instantiation of 'cycloneii_lcell_ff' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(458): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(475): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(500): Instantiation of 'cycloneii_io' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(528): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(545): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(562): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(579): Instantiation of 'cycloneii_lcell_ff' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(592): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(609): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(634): Instantiation of 'cycloneii_io' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(662): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(679): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(696): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(713): Instantiation of 'cycloneii_lcell_ff' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(726): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(743): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(760): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(777): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(802): Instantiation of 'cycloneii_io' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(830): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(847): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(864): Instantiation of 'cycloneii_lcell_ff' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(877): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(894): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(919): Instantiation of 'cycloneii_io' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(955): Instantiation of 'cycloneii_io' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(991): Instantiation of 'cycloneii_io' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) ASM1.vo(1027): Instantiation of 'cycloneii_io' failed. The design unit was not found.
+# 
+#         Region: /ASM1
+#         Searched libraries:
+#             D:/Projects/HDL/simulation/modelsim/gate_work
+# Error loading design
+# Cannot determine language of D:/Projects/HDL/simulation/modelsim/g

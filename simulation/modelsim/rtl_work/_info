@@ -1,0 +1,26 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Projects\HDL\simulation\modelsim
+vASM1
+!i10b 1
+!s100 =ob5``zURJFTUXP[B[bd73
+I`aWfSDSTjnnWiN;c2_QRJ3
+VGK0FTN2FJn?IYhz9=h[QL2
+Z1 dD:\Projects\HDL\simulation\modelsim
+w1695223492
+8D:/Projects/HDL/ASM1.v
+FD:/Projects/HDL/ASM1.v
+L0 1
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1696473971.377000
+!s107 D:/Projects/HDL/ASM1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Projects/HDL|D:/Projects/HDL/ASM1.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+D:/Projects/HDL -O0
+n@a@s@m1

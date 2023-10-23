@@ -1,0 +1,60 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do counter8bit_run_msim_gate_verilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {counter8bit.vo}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module counter8bit
+# 
+# Top level modules:
+# 	counter8bit
+# 
+# vlog -vlog01compat -work work +incdir+D:/Projects/HDL/counter8bit {D:/Projects/HDL/counter8bit/counter8bit_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module counter8bit_tb
+# 
+# Top level modules:
+# 	counter8bit_tb
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs="+acc"  counter8bit_tb
+# vsim +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps counter8bit_tb 
+# Loading work.counter8bit_tb
+# Loading work.counter8bit
+# Loading cycloneii_ver.cycloneii_io
+# Loading cycloneii_ver.cycloneii_mux21
+# Loading cycloneii_ver.cycloneii_dffe
+# Loading cycloneii_ver.cycloneii_asynch_io
+# Loading cycloneii_ver.cycloneii_clkctrl
+# Loading cycloneii_ver.cycloneii_mux41
+# Loading cycloneii_ver.cycloneii_ena_reg
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# Loading cycloneii_ver.cycloneii_lcell_ff
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading instances from counter8bit_v.sdo
+# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+# Loading timing data from counter8bit_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /counter8bit_tb File: D:/Projects/HDL/counter8bit/counter8bit_tb.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $finish    : D:/Projects/HDL/counter8bit/counter8bit_tb.v(29)
+#    Time: 945 ns  Iteration: 0  Instance: /counter8bit_tb
+# 1
+# Break in Module counter8bit_tb at D:/Projects/HDL/counter8bit/counter8bit_tb.v line 29
+# Simulation Breakpoint: 1
+# Break in Module counter8bit_tb at D:/Projects/HDL/counter8bit/counter8bit_tb.v line 29
+# MACRO ./counter8bit_run_msim_gate_verilog.do PAUSED at line 17

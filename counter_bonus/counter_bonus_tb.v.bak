@@ -1,0 +1,52 @@
+module counter_bonus_tb;
+    reg clk;
+    reg reset;
+    reg load;
+    reg [7:0] in;
+    reg up_down;
+    wire [7:0] out;
+
+    // Instantiate the counter
+    counter_bonus u1 (
+        .clk(clk), 
+        .reset(reset), 
+        .load(load), 
+        .in(in), 
+        .up_down(up_down), 
+        .out(out)
+    );
+
+    // Clock generator
+    always begin
+        #5 clk = ~clk;    
+    end
+
+    // Test sequence
+    initial begin
+        // Initialize signals
+        clk = 0;
+        reset = 1;
+        load = 0;
+        in = 0;
+        up_down = 1;
+
+        #10;
+        reset = 0;  // De-assert reset
+        #10;
+        load = 1;   // Load value
+        in = 8'b10101010;  // Value to load
+        #10;
+        load = 0;   // Stop loading value
+        #20;
+        up_down = 0;  // Change count direction to down
+        #10;
+        load = 1;   // Load another value
+        in = 8'b01010101;  // Value to load
+        #10;
+        load = 0;   // Stop loading value
+        #20;
+        
+        $finish;  // End simulation
+    end
+
+endmodule

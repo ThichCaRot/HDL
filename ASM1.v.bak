@@ -1,0 +1,22 @@
+module counter (
+    input  logic clk, reset_n, LD, EN_down,
+    input  logic [7:0] data_in,
+
+    output logic [7:0] data_out
+);
+
+
+    always_ff @ (posedge clk, negedge reset_n)
+    if (!reset_n) begin
+        data_out <= 8'd0;
+    end
+    else if (LD == 1) begin
+       data_out <= data_in;
+    end
+    else if (EN_down == 1) begin
+        data_out <= data_out - 'd1;
+    end
+    else begin
+        data_out <= data_out + 'd1;
+    end
+endmodule

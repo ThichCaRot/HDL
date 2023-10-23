@@ -1,0 +1,300 @@
+Info: Start Nativelink Simulation process
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  Gate
+Family                :  cycloneii
+Quartus root          :  c:/altera/13.0sp1/quartus/bin64/
+Quartus sim root      :  c:/altera/13.0sp1/quartus/eda/sim_lib
+Simulation Tool       :  modelsim-altera
+Simulation Language   :  verilog
+Simulation Mode       :  GUI
+Sim Output File       :  ASM1.vo
+Sim SDF file          :  ASM1__verilog.sdo
+Sim dir               :  simulation\modelsim
+
+=======================================================
+
+Info: Starting NativeLink simulation with ModelSim-Altera software
+Sourced NativeLink script c:/altera/13.0sp1/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Warning: File ASM1_run_msim_gate_verilog.do already exists - backing up current file as ASM1_run_msim_gate_verilog.do.bak1
+Probing transcript
+ModelSim-Altera Info: # Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+ModelSim-Altera Info: # do ASM1_run_msim_gate_verilog.do 
+ModelSim-Altera Info: # if {[file exists gate_work]} {
+ModelSim-Altera Info: # 	vdel -lib gate_work -all
+ModelSim-Altera Info: # }
+ModelSim-Altera Info: # vlib gate_work
+ModelSim-Altera Info: # vmap work gate_work
+ModelSim-Altera Info: # Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+ModelSim-Altera Info: # Modifying modelsim.ini
+ModelSim-Altera Warning: # ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+ModelSim-Altera Info: #          Updated modelsim.ini.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+. {ASM1.vo}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # -- Compiling module ASM1
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	ASM1
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: vsim -voptargs=+acc work.ASM1
+ModelSim-Altera Info: # vsim -voptargs=+acc work.ASM1 
+ModelSim-Altera Info: # Loading work.ASM1
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(132): Instantiation of 'cycloneii_io' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(156): Instantiation of 'cycloneii_clkctrl' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(181): Instantiation of 'cycloneii_io' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(217): Instantiation of 'cycloneii_io' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(245): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(270): Instantiation of 'cycloneii_io' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(306): Instantiation of 'cycloneii_io' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(334): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(347): Instantiation of 'cycloneii_clkctrl' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(364): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(381): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(398): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(415): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(428): Instantiation of 'cycloneii_clkctrl' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(445): Instantiation of 'cycloneii_lcell_ff' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(458): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(475): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(500): Instantiation of 'cycloneii_io' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(528): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(545): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(562): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(579): Instantiation of 'cycloneii_lcell_ff' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(592): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(609): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(634): Instantiation of 'cycloneii_io' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(662): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(679): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(696): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(713): Instantiation of 'cycloneii_lcell_ff' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(726): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(743): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(760): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(777): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(802): Instantiation of 'cycloneii_io' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(830): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(847): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(864): Instantiation of 'cycloneii_lcell_ff' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(877): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(894): Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(919): Instantiation of 'cycloneii_io' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(955): Instantiation of 'cycloneii_io' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(991): Instantiation of 'cycloneii_io' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Error: # ** Error: (vsim-3033) ASM1.vo(1027): Instantiation of 'cycloneii_io' failed. The design unit was not found.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /ASM1
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             D:/Projects/HDL/simulation/modelsim/gate_work
+ModelSim-Altera Info: # Error loading design
+ModelSim-Altera Info: # Cannot determine language of D:/Projects/HDL/simulation/modelsim/g
+Error: Errors encountered while running modelsim do file
+Error: NativeLink simulation flow was NOT successful
+
+
+
+================The following additional information is provided to help identify the cause of error while running nativelink scripts=================
+Nativelink TCL script failed with errorCode:  1
+Nativelink TCL script failed with errorInfo:  1
+    (procedure "launch_sim" line 1)
+    invoked from within
+"launch_sim launch_args_hash"
+    ("eval" body line 1)
+    invoked from within
+"eval launch_sim launch_args_hash"
+    invoked from within
+"if [ info exists ::errorCode ] {
+				set savedCode $::errorCode
+				set savedInfo $::errorInfo
+				error $result $savedInfo $savedCode
+			} else {
+			..."
+    invoked from within
+"if [catch {eval launch_sim launch_args_hash} result ] {
+			set status 1
+			if [ info exists ::errorCode ] {
+				set savedCode $::errorCode
+				set sav..."
+    (procedure "run_sim" line 78)
+    invoked from within
+"run_sim run_sim_args_hash"
+    invoked from within
+"if [ info exists ::errorCode ] {
+			set savedCode $::errorCode
+			set savedInfo $::errorInfo
+			error "$result" $savedInfo $savedCode
+		} else {
+			er..."
+    (procedure "run_eda_simulation_tool" line 330)
+    invoked from within
+"run_eda_simulation_tool eda_opts_hash"

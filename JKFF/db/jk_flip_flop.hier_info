@@ -1,0 +1,15 @@
+|jk_flip_flop
+j => always0.IN0
+j => q.OUTPUTSELECT
+j => qbar.OUTPUTSELECT
+k => always0.IN1
+k => q.OUTPUTSELECT
+k => qbar.OUTPUTSELECT
+clk => qbar~reg0.CLK
+clk => q~reg0.CLK
+reset => qbar~reg0.PRESET
+reset => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= qbar~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

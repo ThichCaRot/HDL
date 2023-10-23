@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Projects\HDL\counter_bonus\simulation\modelsim
+vcounter_bonus
+I0^YbVL82jL5MA>:fXE;D41
+V0bIkVP<I^UIOKIkdJNBQM0
+Z1 dD:\Projects\HDL\counter_bonus\simulation\modelsim
+w1697387433
+8D:/Projects/HDL/counter_bonus/counter_bonus.v
+FD:/Projects/HDL/counter_bonus/counter_bonus.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 c^icZfXa9c@NRCz26nJT[0
+!s85 0
+!s108 1697387722.155000
+!s107 D:/Projects/HDL/counter_bonus/counter_bonus.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Projects/HDL/counter_bonus|D:/Projects/HDL/counter_bonus/counter_bonus.v|
+!s101 -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/Projects/HDL/counter_bonus -O0
+vcounter_bonus_tb
+!i10b 1
+!s100 TkTkn2k_el[cWHaXhedeY0
+IRLCjznllS3W3=Dl??91BP0
+V0@GN^G_KN@;D8T`MBnIZ10
+R1
+w1697387690
+8D:/Projects/HDL/counter_bonus/counter_bonus_tb.v
+FD:/Projects/HDL/counter_bonus/counter_bonus_tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1697387722.214000
+!s107 D:/Projects/HDL/counter_bonus/counter_bonus_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Projects/HDL/counter_bonus|D:/Projects/HDL/counter_bonus/counter_bonus_tb.v|
+!s101 -O0
+R3
+R4

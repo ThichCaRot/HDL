@@ -1,0 +1,13 @@
+|sr_flip_flop
+s => always0.IN0
+s => always0.IN0
+r => always0.IN1
+r => always0.IN1
+reset => qbar~reg0.PRESET
+reset => q~reg0.ACLR
+clk => qbar~reg0.CLK
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= qbar~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
